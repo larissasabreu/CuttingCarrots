@@ -5,12 +5,15 @@ import './reset.css'
 import CuttingBoard from './CuttingBoard';
 import CarrotCounter from './CarrotCounter';
 import Carrots from './Carrots';
+import Hands from './Hands';
+
 
 export default function App() {
   const [carrotCounter, setCarrotCounter] = useState(0);
 
   return (
     <>
+      <Hands/>
       <Background>
         <Carrots setCarrotCounter={setCarrotCounter}/>
         <CarrotCounter carrotCounter={carrotCounter} setCarrotCounter={setCarrotCounter}/>

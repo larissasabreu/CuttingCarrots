@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import Board from './assets/Board.png';
 
-
 export default function CuttingBoard () {
     return (
         <>
